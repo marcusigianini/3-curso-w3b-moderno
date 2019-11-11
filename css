@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <style>
+     h1{ 
+       background-color: red;
+       font-size: 40px;             
+     }
+
+     h2, span{ 
+       display: none; 
+     } 
+
+     h3{
+       position: fixed;
+       top: 200px;
+       left: 45%;
+     }
+
+     .estilo{
+       font-style: italic;    
+     }
+
+     .grossura{  
+       font-weight: 800;
+     }
+
+     #corTop{
+       color: purple;
+       font-weight: bolder;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>Titulo1</h1> <!--cor de fundo, tamanho-->
+
+    <h2>Titulo2</h2> <!--sumiço-->
+    <span>não vai aparecer</span> <!--sumiço-->
+    <h4 style="display: none;">Também não vai aparecer</h4> <!--sumiço diferente-->
+
+    <h3>Posicionado</h3> <!--posição fixa, distância de top e left-->
+
+    <p class="estilo grossura">Texto com classe.</p> <!--classes css-->
+
+    <p id="corTop">Texto com ID.</p> <!--id css-->
+  </body>
+</html>
